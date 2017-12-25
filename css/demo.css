@@ -7,7 +7,7 @@ body {
   display: -webkit-flex;
   box-sizing: border-box;
   -webkit-flex-direction: column;
-  overflow-x: auto; }
+  overflow-x: auto }
 
 .header {
   height: 0.44rem;

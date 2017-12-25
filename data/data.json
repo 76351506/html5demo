@@ -1,0 +1,96 @@
+{
+  "img_banner":
+  [
+    "img/ban1.jpg",
+    "img/ban2.jpg",
+    "img/ban3.jpg",
+    "img/ban4.jpg"
+  ],
+  "doc_img":
+  [
+    {
+      "name":"'医生说|治疗慢性胃炎，膏方调养有特色'",
+      "p_book":"陈艳梅",
+      "dzh": "上海中医药大..",
+      "doc_images":"img/doctor_03.png"
+    },
+    {
+      "name":"医生说|治疗慢性胃炎，膏方调养有特色",
+      "p_book":"陈艳梅",
+      "dzh": "上海中医药大..",
+      "doc_images":"img/doctor_06.png"
+    },
+    {
+      "name":"医生说|治疗慢性胃炎，膏方调养有特色",
+      "p_book":"陈艳梅",
+      "dzh": "上海中医药大..",
+      "doc_images":"img/doctor_08.png"
+    },
+    {
+      "name":"医生说|治疗慢性胃炎，膏方调养有特色",
+      "p_book":"陈艳梅",
+      "dzh": "上海中医药大..",
+      "doc_images":"img/doctor_03.png"
+    }
+  ],
+  "lecture_img":
+  [
+    {
+      "url":["img/banner01.jpg","img/banner02.jpg"],
+      "txt":["膝痛到底是为什么？","宫颈癌前病变，怎样识别？"]
+    },
+    {
+      "url":["img/banner01.jpg","img/banner02.jpg"],
+      "txt":["膝痛到底是为什么？","宫颈癌前病变，怎样识别？"]
+    },
+    {
+      "url":["img/banner01.jpg","img/banner02.jpg"],
+      "txt":["膝痛到底是为什么？","宫颈癌前病变，怎样识别？"]
+    }
+  ],
+  "rotate_img":
+  [
+    {
+      "url":["img/banner04.jpg","img/banner05.jpg"]
+    },
+    {
+      "url":["img/banner04.jpg","img/banner05.jpg"]
+    },
+    {
+      "url":["img/banner04.jpg","img/banner05.jpg"]
+    }
+  ],
+  "rubbish_img":
+  [
+    {
+      "tit":"呼吸系统重疾险",
+      "txt":"从小孩到老人，全面保障呼吸系统。超高性价比抗击雾霾，2.4元起~",
+      "txt_span":["￥2.40 "," ￥5.00"],
+      "url":"img/banner06.jpg"
+    },
+    {
+      "tit":"深爱爸妈 中老年全面体检套餐",
+      "txt":"从小孩到老人，全面保障呼吸系统。超高性价比抗击雾霾，2.4元起~",
+      "txt_span":["￥1252.00 "," ￥5.00"],
+      "url":"img/banner07.jpg"
+    },
+    {
+      "tit":"商务精英成年人群优选体检套餐",
+      "txt":"从小孩到老人，全面保障呼吸系统。超高性价比抗击雾霾，2.4元起~",
+      "txt_span":["￥489.00 "," ￥5.00"],
+      "url":"img/banner08.jpg"
+    },
+    {
+      "tit":"爱护口腔超声波洁牙抛光美白套餐",
+      "txt":"从小孩到老人，全面保障呼吸系统。超高性价比抗击雾霾，2.4元起~",
+      "txt_span":["￥390.00 "," ￥5.00"],
+      "url":"img/banner09.jpg"
+    },
+    {
+      "tit":"颈椎病特色检测体检套餐",
+      "txt":"从小孩到老人，全面保障呼吸系统。超高性价比抗击雾霾，2.4元起~",
+      "txt_span":["￥1283.00 "," ￥5.00"],
+      "url":"img/banner10.jpg"
+    }
+  ]
+}

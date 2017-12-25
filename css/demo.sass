@@ -1,0 +1,684 @@
+//*
+//  box-sizing: border-box
+//  margin: 0
+//  padding: 0
+//  overflow: hidden
+body
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  background-color: #dec
+  display: -webkit-flex
+  box-sizing: border-box
+  -webkit-flex-direction: column
+  overflow-x: auto
+
+.header
+  height: 0.44rem
+  color: #fff
+  box-sizing: border-box
+  background: #fff
+  font-size: 0.16rem
+  text-align: center
+  line-height: 0.44rem
+  display: -webkit-flex
+  a
+    -webkit-flex: 1
+    &:nth-child(1)
+      text-align: left
+      color: #6AA092
+      padding-left: .1rem
+.content
+  width: 100%
+  -webkit-flex: 1
+  overflow: hidden
+  .content-swiper
+    height: 100%
+    .swiper-slide
+      overflow-y: auto
+      //box-sizing: border-box
+      overflow-x: hidden
+.lecture
+  margin-top: 10px
+  background: #fff
+  p
+
+    display: -webkit-flex
+    span
+      -webkit-flex: 1
+      font-size: .14rem
+      padding: .1rem
+    span:nth-child(2)
+      -webkit-flex: 1
+      text-align: right
+      font-size: .12rem
+      color: #999
+  .disease
+    display: -webkit-flex
+    dl
+      -webkit-flex: 1
+      padding-left: .1rem
+      dt>img
+        width: 100%
+        height: .9rem
+      dd
+        padding: .05rem  0
+
+.rubbish
+  //width: 100%
+  height: auto
+  padding-bottom: .2rem
+  dl
+    display: -webkit-flex
+    padding: .1rem 0
+    //border-bottom: 1px solid #ccc
+    dt
+      -webkit-flex: 1
+      padding-right: .2rem
+      padding-left: .1rem
+      img
+        width: 100%
+        height: .6rem
+    dd
+      -webkit-flex: 2
+      h4
+        color: #A5A5A5
+        margin-bottom: .1rem
+      span
+        color: red
+      b
+        color: #ccc
+      a
+        padding: .03rem .08rem
+        border: 1px solid #A88D7A
+        border-radius: 25px
+        color: #A88D7A
+
+.rotate
+  ul
+    display: -webkit-flex
+    li
+      -webkit-flex: 1
+      padding-left: .1rem
+      img
+        width: 100%
+        height: .8rem
+.blank
+  width: 100%
+  height: .45rem
+  background: #fff
+
+.addition
+  width: 90%
+  height: 1.6rem
+  background: #fff
+  position: absolute
+  border: 1px solid #ccc
+  bottom: 0
+  left: 0
+  right: 0
+  top: .4rem
+  margin: auto
+  border-radius: 8px
+  span
+    display: block
+    text-align: center
+    margin-top: .15rem
+    img
+      height: .5rem
+    //margin-top: 10px
+    a
+      padding: .05rem .2rem
+      border: 1px solid #ccc
+      border-radius: 25px
+.banner
+  width: 100%
+  height: 1.7rem
+  background: #2C6AD7
+  position: relative
+  .perfect
+    width: 80px
+    position: absolute
+    left: 0
+    right: 0
+    margin: 75px auto
+    text-align: center
+    span
+      margin: .1rem  auto
+      border: 1px solid #ccc
+      padding: .05rem .1rem
+      border-radius: 4px
+      color: #fff
+  .head_portrait
+    position: absolute
+    width: .54rem
+    height: .54rem
+    background: #fff
+    border-radius: 50%
+    left: 0
+    right: 0
+    margin: 10px auto
+    img
+      width: .54rem
+      height: .54rem
+      border-radius: 50%
+.vip
+  width: 120px
+  height: 25px
+  position: absolute
+  left: 0
+  bottom: 0
+  right: 0
+  top: .6rem
+  margin: auto
+  background: #1D51CB
+  border-radius: 25px
+  border: 1px solid #ccc
+  padding: 0 .07rem
+  color: #fff
+  img
+    display: inline
+    width: .20rem
+    height: .20rem
+  p
+    display: inline
+    font-size: .12rem
+    line-height: .1rem
+.health
+  width: 100%
+  height: .36rem
+  background: #1D51CB
+  display: -webkit-flex
+  position: absolute
+  bottom: 0
+  font-size: .12rem
+  color: #fff
+  span:nth-child(1)
+    -webkit-flex: 1
+    line-height: .15rem
+    margin-top: .05rem
+    a
+      display: block
+      color: #fff
+      padding-left: .05rem
+
+  span:nth-child(3)
+    -webkit-flex: 1
+    text-align: right
+    padding-right: .05rem
+    line-height: .4rem
+.menu
+  display: -webkit-flex
+  text-align: center
+  border-bottom: 1px solid #ccc
+  span
+    -webkit-flex: 1
+    i
+      font-size: .16rem
+    a
+      display: block
+      padding: .05rem
+  span:nth-child(1)
+    color: #2E88E8
+  span:nth-child(2)
+    color: #F7BF08
+  span:nth-child(3)
+    color: #62B937
+.list
+  width: 100%
+  li
+    width: 100%
+    display: -webkit-flex
+    font-size: .16rem
+    padding: .1rem 0
+    span:nth-child(1)
+      color: #3b3d3e
+      -webkit-flex: 4
+      i
+        padding: 0 .1rem
+    span:nth-child(2)
+      color: #999
+      text-align: center
+      -webkit-flex: 1
+
+.nav-search
+  width: 100%
+  height: .4rem
+  background: white
+  border: 1px solid #ccc
+  position: relative
+  input
+    width: 70%
+    height: .25rem
+    //margin-top: .05rem
+    padding: 0 .3rem 0 0
+    border-radius: 8px
+    border: 1px solid #ccc
+    position: absolute
+    left: 0
+    top: .03rem
+    right: 0
+    bottom: 0
+    margin: auto
+    background: url("../img/4_03.png") no-repeat #f0f0f0
+    background-position: 10px
+    background-size: 16px
+    text-indent: .35rem
+.autognosis
+  width: 100%
+  height: .4rem
+  display: -webkit-flex
+  margin-top: 10px
+  background: white
+  ul
+    width: 100%
+    height: 100%
+    display: -webkit-flex
+    li
+      flex: 1
+      line-height: .4rem
+      box-sizing: border-box
+      img
+        width: 20px
+        height: 14px
+    &:first-child
+      padding-left: 10px
+    &:last-child
+      padding-right: 15px
+
+.classify
+  width: 100%
+  background: white
+  margin-top: 10px
+  ul
+    width: 100%
+    display: -webkit-flex
+    li
+      flex: 1
+      text-align: center
+      border: 1px solid #ebebeb
+      img
+        width: 23px
+        height: 26px
+        padding-top: 5px
+      p
+        padding-top: 5px
+        padding-bottom: 5px
+.sex
+  width: 100%
+  background: #ffffff
+  margin-top: 10px
+  .menu
+    width: 100%
+    height: .4rem
+    border: 1px solid #ebebeb
+    display: -webkit-flex
+    li
+      flex: 1
+      line-height: .4rem
+      color: #aaaaaa
+      &:first-child
+        padding-left: 5px
+        color: #5669c5
+        border-bottom: 2px solid #5669c5
+    span
+      padding-left: 10px
+      font-size: 18px
+      color: #e8e8e8
+  .types
+    width: 100%
+    height: .65rem
+    border-bottom: 1px solid #ccc
+    li
+      padding: 0 5px
+      color: #c0cbcf
+      background: #f0f5fb
+      border: 1px solid #cccccc
+      border-radius: 7px
+      float: left
+      margin: 5px
+.content-swiper_li
+  width: 100%
+  height: 150px
+  margin-top: 15px
+  .swiper-wrapper
+    width: 100%
+    height: 100%
+    .swiper-slide
+      img
+        width: 100%
+        height: 100%
+.doctor
+  width: 100%
+  background: #ffffff
+  margin-top: 15px
+  border-top: 1px solid #ccc
+  .titles
+    width: 100%
+    height: .3rem
+    line-height: .3rem
+    padding-left: 10px
+  div
+    width: 100%
+    height: 1rem
+    border-bottom: 1px solid #ccc
+    box-sizing: border-box
+    dl
+      width: 100%
+      dt
+        width: 30%
+        height: 100%
+        padding-top: 10px
+        padding-left: 15px
+        float: left
+        img
+          width: 52px
+          height: 57px
+      dd
+        float: left
+        width: 55%
+        height: 50%
+        p
+          padding-top: 5px
+        span
+          padding-left: 10px
+          font-size: .12rem
+          color: #c0c0c0
+
+.reg
+  width: 100%
+  height: 1.65rem
+  position: relative
+  .form
+    width: 94%
+    left: 3%
+    top: 0.1rem
+    position: absolute
+    z-index: 66
+    input
+      border: 0
+      outline: 0
+      width: 100%
+      background: rgba(255, 255, 255, .5)
+      font-size: 0.12rem
+      height: 0.2rem
+      border-radius: 0.2rem
+      box-sizing: border-box
+      color: #ffffff
+      padding: 0 0.3rem
+    i
+      position: absolute
+      color: #ffffff
+      left: 0.08rem
+      top: 0.03rem
+
+.banner-swiper
+  height: 100%
+  //position: relative
+  //overflow: hidden
+  box-sizing: border-box
+  .swiper-index
+    z-index: 2
+  img
+    width: 100%
+    height: 100%
+.top
+  height: 1.1rem
+  display: -webkit-flex
+  a
+    -webkit-flex: 1
+    display: -webkit-flex
+    align-items: center
+    justify-content: center
+    -webkit-flex-direction: column
+    i
+      display: inline-block
+      width: 0.5rem
+      height: 0.5rem
+      background: #faa804
+      border-radius: 0.5rem
+      font-size: 0.2rem
+      color: #ffffff
+      text-align: center
+      line-height: 0.5rem
+      margin-bottom: 0.1rem
+    &:nth-child(2) > i
+      background: #77bf04
+    &:nth-child(3) > i
+      background: #3a9bc6
+
+.bottom
+  height: 0.55rem
+  box-sizing: border-box
+  padding: 0.1rem 0.05rem
+  border-top: 0.01rem solid #cccccc
+  display: -webkit-flex
+  background: #fff
+  text-align: center
+  .left
+    border-right: 0.01rem solid #dddddd
+    width: 0.6rem
+    line-height: 0.45rem
+    img
+      width: 0.6rem
+      height: auto
+  p
+    font-size: 0.12rem
+    line-height: 0.2rem
+    //padding-left: 0.1rem
+
+    &:nth-child(2)
+      position: relative
+      padding-left: 0.18rem
+      &:after
+        position: absolute
+        content: ""
+        width: 0
+        height: 0
+        border: 0.03rem solid #b7cce1
+        border-radius: 50%
+        top: 0.06rem
+        left: 0.1rem
+    i
+      color: orange
+      padding-right: 0.02rem
+
+.doctor-day, .more, .bing, .pic, .list
+  margin-top: 0.05rem
+  background: #ffffff
+
+.doctor-day
+  height: 1.9rem
+  .top
+    height: 1.09rem
+    border: 1px solid #dddddd
+    display: -webkit-flex
+    dl
+      width: 50%
+      position: relative
+      &:nth-child(1)
+        box-sizing: border-box
+        border-right: 0.01rem solid #dddddd
+      dd
+        width: 60%
+        position: absolute
+        bottom: 0
+        right: 0
+        img
+          width: 100%
+          height: 65px
+      dt
+        font-size: 0.16rem
+        position: absolute
+        z-index: 666
+        text-indent: 0.05rem
+        color: orange
+        span
+          display: block
+          font-size: 0.12rem
+          color: #333333
+      &:nth-child(2)
+        dd
+          width: 50%
+  .bottom
+    height: 0.9rem
+    ul
+      width: 100%
+      height: 0.8rem
+      display: -webkit-flex
+      border-bottom: 1px solid #f2f2f2
+      li
+        -webkit-flex: 1
+        align-items: center
+        font-size: 0.12rem
+        border-right: 1px solid #f2f2f2
+        span
+          display: block
+          width: 100%
+        img
+          width: 42px
+          height: 42px
+
+.doctor-health
+  .tit
+    height: 0.4rem
+    display: -webkit-flex
+    align-items: center
+    box-sizing: border-box
+    border-bottom: 0.01rem solid #dddddd
+    padding: 0 2%
+    justify-content: space-between
+    span
+      color: #cccccc
+      font-size: 0.12rem
+  .jiankang
+    height: 1.6rem
+    background: white
+    box-sizing: border-box
+  .left
+    float: left
+    width: 50%
+    height: 100%
+    box-sizing: border-box
+    border-right: 0.01rem solid #dddddd
+    dt
+      width: 0.7rem
+      img
+        width: 100%
+        position: relative
+        right: -0.6rem
+    dd
+      color: #cccccc
+      box-sizing: border-box
+      padding: 0.12rem 0 0 0.2rem
+      p
+        color: orange
+        font-size: 0.2rem
+        span
+          color: red
+  .right
+    width: 50%
+    float: right
+    dl
+      width: 100%
+      height: 0.8rem
+      clear: both
+      &:nth-child(1)
+        border-bottom: 0.01rem solid #dddddd
+        box-sizing: border-box
+      dt
+        float: right
+        width: 0.6rem
+        box-sizing: border-box
+        padding-top: 0.35rem
+        img
+          width: 100%
+      dd
+        float: left
+        display: -webkit-flex
+        -webkit-flex-direction: column
+        color: orange
+        span
+          font-size: 0.12rem
+          color: #cccccc
+
+.genre
+  padding: 0 2%
+  box-sizing: border-box
+  p
+    height: 0.3rem
+    display: -webkit-flex
+    justify-content: space-between
+    align-items: center
+    a
+      font-size: 0.12rem
+      color: #cccccc
+  .bing_info
+    display: -webkit-flex
+    -webkit-flex-wrap: wrap
+  span
+    border: 1px solid #cccccc
+    background: #f1f2f7
+    padding: 0.05rem 0.1rem
+    border-radius: 0.2rem
+    color: #999999
+    margin: 0.03rem
+    font-size: 0.12rem
+
+.pic
+  width: 100%
+  height: 0.6rem
+  img
+    width: 100%
+    height: 100%
+.nav-recommend
+  display: -webkit-flex
+  height: 0.4rem
+  a
+    -webkit-flex: 1
+    height: 0.39rem
+    line-height: 0.39rem
+    border-bottom: 0.01rem solid #cccccc
+    text-align: center
+    &.bg, &:hover
+      color: #4a7abc
+      border-bottom-color: #4a7abc
+.question
+  box-sizing: border-box
+  padding: 0 2%
+
+  dl
+    height: 0.9rem
+    border-bottom: 0.01rem solid #cccccc
+    box-sizing: border-box
+    padding-top: 0.15rem
+    dt
+      height: 0.6rem
+      float: left
+      padding-right: 0.12rem
+      img
+        height: 100%
+        width: auto
+    dd
+      p
+        height: 0.2rem
+        &:nth-child(2)
+          font-size: 0.12rem
+          color: #cccccc
+.footer
+  height: 0.44rem
+  color: #000
+  box-sizing: border-box
+  font-size: 0.16rem
+  text-align: center
+  //line-height: 0.2rem
+  border-top: 1px solid #ccc
+  display: -webkit-flex
+  span
+    -webkit-flex: 1
+    color: #999
+    i
+      color: #999
+    a
+      display: block
